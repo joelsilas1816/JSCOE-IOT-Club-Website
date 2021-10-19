@@ -24,10 +24,17 @@ body {
 } */
 .set-pad {
     padding-top:35px;
+    
 }
 .set-row-pad {
     padding-top:30px;
     padding-bottom:50px;
+    /* justify-content: center; */
+}
+
+.justify-content-center {
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
 }
 /*=====================================
   NAVBAR STYLES 
@@ -216,6 +223,10 @@ h1::after {
 #faculty-sec {
     background-color: #000;
     color: #fff;
+}
+
+.gallery{
+  align-items: center;
 }
 
     #faculty-sec .header-line {
