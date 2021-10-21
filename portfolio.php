@@ -10,11 +10,20 @@ $email=$_POST['email'];
 $message=$_POST['message'];
 $data="INSERT INTO viewers (name,email,message) VALUES('$name','$email','$message')";
 $result = mysqli_query($conn,$data);
-// header('location:signupsucc.php');
+
 if(!$result){
     echo "Error : " .mysqli_error($conn);
     exit;
 }
-echo "Request submitted successfully";
+// echo "Request submitted successfully";
+//OR use the following :
+
+
+?>
+<script>
+    alert("Request submitted successfully");
+    </script>
+<?
+
 mysqli_close($conn);
 ?>
