@@ -13,3 +13,4 @@ $messagekar=$_post['_message'];
 $data="INSERT INTO 2021resume (name,email,message) VALUES('$nam','$emailbeta','$messagekar')";
 mysqli_query($connection,$data);
 header('location:signupscc.php');
+?>
