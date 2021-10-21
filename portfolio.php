@@ -1,22 +1,20 @@
 <?php
-$connection=mysqli_connect("127.0.0.1","root","","test");
-if($connection){
-    echo "connection is established";
-}
-else{
-    echo "error connection failed";
-}
-mysqli_select_db($connection,'portfolio');
-$nam=$_POST['name'];
-$emailbeta=$_POST['email'];
-$messagekar=$_POST['message'];
-$data="INSERT INTO 2021resume (name,email,message) VALUES("$nam","$emailbeta","$messagekar")";
-$result = mysqli_query($connection,$data);
-// header('location:signupsucc.php');
-if(!$result){
-    echo "Error : " .mysqli_error($connection);
+$conn=mysqli_connect("127.0.0.1","root","","iotclub");
+if(!$conn){
+    echo "Connection failed".mysqli_connect_error();
     exit;
 }
-echo "Success";
-mysqli_close($connection);
+
+$name=$_POST['name'];
+$email=$_POST['email'];
+$message=$_POST['message'];
+$data="INSERT INTO viewers (name,email,message) VALUES('$name','$email','$message')";
+$result = mysqli_query($conn,$data);
+// header('location:signupsucc.php');
+if(!$result){
+    echo "Error : " .mysqli_error($conn);
+    exit;
+}
+echo "Request submitted successfully";
+mysqli_close($conn);
 ?>
