@@ -26,18 +26,21 @@
 
     <style>
         ::placeholder {
-          color: red;
-          opacity: 1; /* Firefox */
+            color: red;
+            opacity: 1;
+            /* Firefox */
         }
-        
-        :-ms-input-placeholder { /* Internet Explorer 10-11 */
-         color: red;
+
+        :-ms-input-placeholder {
+            /* Internet Explorer 10-11 */
+            color: red;
         }
-        
-        ::-ms-input-placeholder { /* Microsoft Edge */
-         color: red;
+
+        ::-ms-input-placeholder {
+            /* Microsoft Edge */
+            color: red;
         }
-        </style>
+    </style>
 
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.css"> -->
     <!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> 
@@ -45,6 +48,7 @@
 </head>
 
 <body>
+    <script type="text/javascript" scr="assets/js/successfulRequest.js"></script>
     <!--NAVBAR SECTION START-->
 
     <div class="navbar navbar-inverse navbar-fixed-top" id="menu">
@@ -56,7 +60,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><img class="logo-custom" src="./assets/img/iot.png" alt="IOT LOGO" /></a>
+                <a class="navbar-brand" href="index.html"><img class="logo-custom" src="./assets/img/iot.png"
+                        alt="IOT LOGO" /></a>
             </div>
             <div class="row navbar-collapse collapse move-me" style="padding: 0px;">
                 <ul style="padding-left: 5px;" class="nav navbar-nav navbar-right">
@@ -115,7 +120,7 @@
                                         <div class="row">
                                             <h1 style="letter-spacing: 5px; padding-top: 20px;">IOT Club</h1>
                                             <h3 style=" letter-spacing: 3px;  text-transform: capitalize; "> Welcome
-                                            to the future station</h3>
+                                                to the future station</h3>
                                         </div>
                                         <div class="row">
                                             <img width=160px height=160px src="assets/img/JSCOE LOGO.png" />
@@ -445,7 +450,8 @@
 
                 <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.5s">
                     <div class="faculty-div">
-                        <img src="img/members/2021-22/Ashwini_Sali.jpeg" width="220px" height="250px" class="img-rounded" />
+                        <img src="img/members/2021-22/Ashwini_Sali.jpeg" width="220px" height="250px"
+                            class="img-rounded" />
                         <h3>ASHWINI SALI</h3>
                         <hr />
                         <h4> <br /></h4>
@@ -462,7 +468,8 @@
                 </div>
                 <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.5s">
                     <div class="faculty-div">
-                        <img src="img/members/2021-22/siddhi_Bhende.jpeg" width="220px" height="250px" class="img-rounded" />
+                        <img src="img/members/2021-22/siddhi_Bhende.jpeg" width="220px" height="250px"
+                            class="img-rounded" />
                         <h3>SIDDHI BHENDE</h3>
                         <hr />
                         <h4> <br /></h4>
@@ -620,7 +627,7 @@
                         <div class="panel-heading">
                             <h4 class="panel-title">
                                 <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" class="collapsed">
-                                    <strong> 153+</strong>  COURSES
+                                    <strong> 153+</strong> COURSES
                                 </a>
                             </h4>
                         </div>
@@ -669,27 +676,51 @@
 
 
                     <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
-                        <form action="portfolio.php" method="POST">
+                        <!-- ///////////FORM START///////////.//////-->
+                        <!-- <div class="container"> -->
+                        <div class="columns">
+                            <div class="column is-half">
+                                <form action="https://api.staticforms.xyz/submit" method="post" id="staticform">
+                                    <!-- Replace with your StaticForms accessKey -->
+                                    <input type="hidden" name="accessKey" value="f5d0f810-7b6c-40ea-a0a1-980e8cfdc8a6">
+                                    <input type="hidden" name="subject" value="Test from jsfiddle">
+                                    <!-- Replace with the url you want to redirect to -->
+                                    <input type="hidden" name="redirectTo" value="https://furry-telegram.vercel.app/">
+                                    <div class="field">
+                                        <label class="label">Name</label>
 
-                            <div class="form-group">
+                                        <div class="control">
+                                            <input type="text" name="name" width="100%"
+                                                style="width: 100% ;color: black;" placeholder="Enter Your Name"
+                                                required>
+                                        </div>
+                                    </div>
+                                    <div class="field">
+                                        <label class="label">Email</label>
+                                        <div class="control">
+                                            <input class="input" style="width: 100% ;color: black;" type="email"
+                                                name="email" placeholder="Enter Your Email" required>
+                                        </div>
+                                    </div>
+                                    <div class="field">
+                                        <label class="label">Message</label>
+                                        <div class="control">
+                                            <textarea class="textarea" name="message" style="width: 100% ;color: black;"
+                                                placeholder="Enter Your Message" required></textarea>
+                                        </div>
+                                    </div>
+                                    <button style="text-shadow: #1d00c2;" type="Submit"
+                                        class="btn btn-info btn-block btn-lg">Submit</button>
 
-                                <input type="text" class="form-control " name="name" id="name" required="required" placeholder="Your Name" />
-
+                                    <!-- If we receive data in this field submission will be ignored -->
+                                    <input type="text" name="honeypot" style="display: none;"> <!-- Optional -->
+                                </form>
                             </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control " name="email" id="email" required="required" placeholder="Your Email" />
-                            </div>
+                        </div>
+                        <!-- </div>  -->
 
-                            <div class="form-group">
-                                <textarea name="message" id="message" required="required" class="form-control"
-                                    style="min-height: 150px;" placeholder="Message"></textarea>
-                            </div>
+                        <!-- ///////////FORM END/////////////////// -->
 
-                            <div class="form-group">
-                                <input type="submit" name="submit" class="btn btn-info btn-block btn-lg" value ="SUBMIT REQUEST"/>
-                            </div>
-
-                        </form>
                     </div>
 
 
@@ -741,7 +772,7 @@
         </div>
     </div>
     <!-- CONTACT SECTION END-->
-        <!-- FOOTER SECTION START-->
+    <!-- FOOTER SECTION START-->
 
     <div id="footer">
         <div class="mycontainer1">

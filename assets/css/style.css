@@ -44,6 +44,9 @@ body {
     max-height: 60px;
     /* color : red; */
 }
+div.column.is-half {
+  width: 100%;
+}
 
 #menu {
     background-color: rgba(28, 43, 75, 1);
