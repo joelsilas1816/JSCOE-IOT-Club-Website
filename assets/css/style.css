@@ -26,6 +26,25 @@ body {
     padding-top:35px;
     
 }
+
+.tooltiptext {
+  visibility:hidden;
+  padding: 8px; 
+  background-color: rgb(240, 219, 28); 
+  color: black; 
+  border: solid 1px white;
+   border-radius: 80px; 
+   font-size: 17px;
+}
+#tool{
+  position: fixed; 
+  right:15px ; 
+  bottom: 38px; 
+}
+
+#tool:hover .tooltiptext {
+  visibility: visible;
+}
 .set-row-pad {
     padding-top:30px;
     padding-bottom:50px;
@@ -38,7 +57,7 @@ body {
 }
 /*=====================================
   NAVBAR STYLES 
-    ===================================*/
+  ===================================*/
 
 .logo-custom {
     max-height: 60px;
@@ -70,7 +89,6 @@ div.column.is-half {
         padding: 22px 10px;
     }
 
-
 /*=====================================
   HOME STYLES 
     ===================================*/
@@ -96,8 +114,6 @@ div.column.is-half {
 
     }
 
-   
-    
     .home-sec h1 {
         color: #fff;
         font-weight: 900;
@@ -109,8 +125,6 @@ div.column.is-half {
     .home-sec h3 {
         text-transform: uppercase;
     }
-
-
 
 .set-flexi {
     -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
