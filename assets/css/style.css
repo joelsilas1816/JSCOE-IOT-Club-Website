@@ -28,7 +28,7 @@ body {
 }
 
 .tooltiptext {
-  visibility:hidden;
+  display: none;
   padding: 8px; 
   background-color: rgb(240, 219, 28); 
   color: black; 
@@ -43,6 +43,7 @@ body {
 }
 
 #tool:hover .tooltiptext {
+  display: inline;
   visibility: visible;
 }
 .set-row-pad {
