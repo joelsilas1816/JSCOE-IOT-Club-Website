@@ -68,6 +68,11 @@ div.column.is-half {
   width: 100%;
 }
 
+/* .formip{
+  border: solid 1px white;
+  border-radius: 10px;
+} */
+
 #menu {
     background-color: rgba(28, 43, 75, 1);
     color: #fff;
@@ -75,6 +80,7 @@ div.column.is-half {
     font-weight: 900;
     letter-spacing: 1px;
     min-height: 70px;
+    border-bottom: solid 1px #fff;
 }
 
 .cnt::after{

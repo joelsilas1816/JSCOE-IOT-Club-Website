@@ -13,32 +13,32 @@
 (function ($) {
     "use strict";
     var mainApp = {
-        scrollAnimation_fun: function () {
+        // scrollAnimation_fun: function () {
 
-            /*====================================
-             ON SCROLL ANIMATION SCRIPTS 
-            ======================================*/
+        //     /*====================================
+        //      ON SCROLL ANIMATION SCRIPTS 
+        //     ======================================*/
            
             
-            window.scrollReveal = new scrollReveal();
+        //     window.scrollReveal = new scrollReveal();
 
-        },
-         scroll_fun: function () {
+        // },
+        //  scroll_fun: function () {
 
-            /*====================================
-                 EASING PLUGIN SCRIPTS 
-                ======================================*/
-            $(function () {
-                $('.move-me a').bind('click', function (event) { //just pass move-me in design and start scrolling
-                    var $anchor = $(this);
-                    $('html, body').stop().animate({
-                        scrollTop: $($anchor.attr('href')).offset().top
-                    }, 1000, 'easeInOutQuad');
-                    event.preventDefault();
-                });
-            });
+        //     /*====================================
+        //          EASING PLUGIN SCRIPTS 
+        //         ======================================*/
+        //     $(function () {
+        //         $('.move-me a').bind('click', function (event) { //just pass move-me in design and start scrolling
+        //             var $anchor = $(this);
+        //             $('html, body').stop().animate({
+        //                 scrollTop: $($anchor.attr('href')).offset().top
+        //             }, 1000, 'easeInOutQuad');
+        //             event.preventDefault();
+        //         });
+        //     });
 
-        },
+        // },
 
          top_flex_slider_fun:function()
          {
@@ -69,8 +69,8 @@
    
    
     $(document).ready(function () {
-        mainApp.scrollAnimation_fun();
-        mainApp.scroll_fun();
+        // mainApp.scrollAnimation_fun();
+        // mainApp.scroll_fun();
         mainApp.top_flex_slider_fun();
         mainApp.custom_fun();
     });
