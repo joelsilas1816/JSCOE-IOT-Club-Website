@@ -412,7 +412,24 @@ h1::after {
         }
       }
       
+      #collapsebutton:hover .icon-bar{
+        background-color :rgb(8, 34, 146)    !important;
+    }
+    
+    #collapsebutton{
+        background-color: #000;
+    }
+    
+    #collapsebutton:hover {
+        background-color: white;
+    }
+    
+    .overf{
+        overflow-y:scroll; 
+        overflow-x: hidden;
+    }
 
+    
 
       /* @media(min-width : 947.20px)
       {
