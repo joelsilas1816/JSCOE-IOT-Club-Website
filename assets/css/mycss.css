@@ -1,3 +1,4 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap'); */
 
 .myrow {
   display: -ms-flexbox;
@@ -61,3 +62,98 @@
   border-radius: 100%;
 }
 
+#ClubName{
+  text-shadow: -1px 1px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff,-1px -1px 0 #fff !important;
+   font-size: 5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#coloring {
+  text-shadow: black;
+  animation: 5s flag ease-in-out infinite;
+}
+
+@keyframes flag {
+  0% {
+      color: #4CC9F0;
+  }
+  5% {
+      color: #4895EF;
+  }
+  10% {
+      color: #4361EE;
+  }
+ 15% {
+      color: #3F37C9;
+  }
+  20% {
+      color: #3A0CA3;
+  }
+  25% {
+      color: #480CA8;
+  }
+  30% {
+      color: #560BAD;
+  }
+  35% {
+      color: #7209B7;
+  }
+  40% {
+      color: #B5179E;
+  }
+  45% {
+      color: #F72585;
+  }
+  50% {
+      color: #9D0208;
+  } 
+  55% {
+      color: #D00000;
+  }
+  60% {
+      color: #DC2F02;
+  }
+  65% {
+      color: #E85D04;
+  }
+  70% {
+      color: #F48C06;
+  }
+  75% {
+      color: #FFBA08;
+  }
+  80% {
+      color: #DEFF0A;
+  }
+  85% {
+      color: #A1FF0A;
+  }
+  90% {
+      color: #0AFF99;
+  }
+  95% {
+      color: #00B86B;
+  }
+  100% {
+      color: #C2FBFF;
+  }
+  
+}
+
+.anim{
+   animation: trans 5s step-end infinite;
+   border: solid white 1px;
+   color: #000;
+   font-weight: bolder;
+}
+
+@keyframes trans {
+
+  0%{
+    background-color: lightgreen;
+  }
+  
+ 50%{
+  background-color: lightcoral;
+}
+}
