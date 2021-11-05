@@ -41,6 +41,7 @@ body {
    border-radius: 80px; 
    font-size: 17px;
 }
+
 #tool{
   position: fixed; 
   right:15px ; 
@@ -429,7 +430,7 @@ h1::after {
         overflow-x: hidden;
     }
 
-    
+
 
       /* @media(min-width : 947.20px)
       {
