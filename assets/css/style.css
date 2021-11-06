@@ -148,7 +148,8 @@ div.column.is-half {
 .home-sec {
     padding-top: 10px;
     padding-bottom: 60px;
-    /* background: url(../img/back.jpg) no-repeat center center; */
+    /* background-color: #000 !important; */
+    background: url(../img/back.jpg) no-repeat center center;
     padding: 0;
     -webkit-background-size: cover;
     background-size: cover;
@@ -160,11 +161,10 @@ div.column.is-half {
         background: rgba(50, 68, 97, 0.89);
         min-height: 600px;
         background: url(../img/back.jpg) ;
-        /* background-repeat:  no-repeat ;
-        filter: brightness(50%); */
+        /* background-repeat:  no-repeat ; */
+        /* filter: brightness(100); */
         background-size: contain;
         -webkit-background-size: cover;
-
     }
 
     .home-sec h1 {
@@ -345,8 +345,12 @@ h1::after {
 }
 
 #contact-sec .overlay {
-        background: rgba(0, 0, 0, 0.76);
+        background: rgba(17, 16, 16, 0.246);
         min-height: 600px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
     }
 
     #contact-sec h1 {

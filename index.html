@@ -58,15 +58,15 @@
 </head>
 
 <body>
- 
+
     <!--NAVBAR SECTION START-->
-    
+
 
     <div class="navbar navbar-inverse navbar-fixed-top" id="menu">
         <div class="container" style="width:95%">
             <div class="row navbar-header">
-                <button id="collapsebutton" style="padding-top: 10px;" type="button" class="navbar-toggle" data-toggle="collapse"
-                    data-target=".navbar-collapse">
+                <button id="collapsebutton" style="padding-top: 10px;" type="button" class="navbar-toggle"
+                    data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -74,7 +74,7 @@
                 <!-- <div id="logorot">  -->
                 <a class="navbar-brand" href="index.html"><img class="logo-custom" src="./assets/img/iot.png"
                         alt="IOT LOGO" /></a>
-                        <!-- </div> -->
+                <!-- </div> -->
             </div>
             <div class="row navbar-collapse collapse move-me overf">
                 <ul style="padding-left: 5px" class="nav navbar-nav navbar-right">
@@ -88,7 +88,6 @@
                     <li class="how"><a href="#contact-sec">Contact us</a></li>
                 </ul>
             </div>
-
         </div>
     </div>
     <!--NAVBAR SECTION END-->
@@ -108,7 +107,9 @@
                                             <img width=140px height=140px src="assets/img/jscoe_logo1.png" />
                                         </div>
                                         <div class="row">
-                                            <h1 id="coloring" style="letter-spacing: 5px; padding-top: 20px;"><p id="ClubName" >IOT Club</p></h1>
+                                            <h1 id="coloring" style="letter-spacing: 5px; padding-top: 20px;">
+                                                <p id="ClubName">IOT Club</p>
+                                            </h1>
                                             <h3 style=" letter-spacing: 3px;   text-transform: capitalize; ">
                                                 Department of Computer Engineering</h3>
                                         </div>
@@ -551,7 +552,7 @@
 
 
         </div>
-        
+
     </div>
     <!-- ///////////////////////REVIEWS START////////////////////////// -->
     <div id="features-sec" class="container set-pad page-container">
@@ -595,7 +596,7 @@
 
             </div>
         </div>
-        
+
 
         <hr style="width: 100%; border : 2px solid rgb(8, 34, 146);" />
         <!-- <div style=" align-self: flex-start;"> -->
@@ -719,14 +720,17 @@
     <!-- ///////////////////////REVIEWS END////////////////////////// -->
     <!-- COURSES SECTION END-->
     <div id="contact-sec">
+
         <div class="overlay">
+           
             <div class="container set-pad">
                 <div class="row text-center">
-                    <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
-                        <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line">CONTACT US
+                    <div class="shad col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
+                        <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line">Any Message for us
+                            ?
                         </h1>
                         <p data-scroll-reveal="enter from the bottom after 0.3s">
-                            We will love to hear from you
+                            ... We would love to hear from you ...
                         </p>
                     </div>
 
@@ -745,31 +749,35 @@
                                     <input type="hidden" name="subject" value="Test from jsfiddle">
                                     <!-- Replace with the url you want to redirect to -->
                                     <input type="hidden" name="redirectTo" value="https://furry-telegram.vercel.app/">
-                                    <div class="field">
-                                        <label class="label" style="font-size: 16px;">Name</label>
+                                    <div style="display: flex; flex-direction: column;">
+                                        <div class="field namfield">
+                                            <label class="label">Name</label>
 
-                                        <div class="control">
-                                            <input type="text" name="name" width="100%"
-                                                style="width: 100% ;color: black;" placeholder="Enter Your Name"
-                                                required>
+                                            <div class="control">
+                                                <input type="text" name="name" style="width: 100%"
+                                                    placeholder="Enter Your Name" required>
+                                            </div>
+                                        </div>
+                                        <div class="field">
+                                            <label class="label">Email</label>
+                                            <div class="control">
+                                                <input class="input" style="width: 100%" type="email" name="email"
+                                                    placeholder="Enter Your Email" required>
+                                            </div>
+                                        </div>
+                                        <div class="field">
+                                            <label class="label">Message</label>
+                                            <div class="control">
+                                                <textarea class="textarea" name="message" style="width: 100%"
+                                                    placeholder="Enter Your Message" required></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="field" style="display: flex; align-items: center; ">
+                                            <label style="opacity: 0" class="label">Email</label>
+                                            <button id="subBut" type="Submit"
+                                                class="btn btn-info btn-block btn-lg">Submit</button>
                                         </div>
                                     </div>
-                                    <div class="field">
-                                        <label class="label" style="font-size: 16px;">Email</label>
-                                        <div class="control">
-                                            <input class="input" style="width: 100% ;color: black;" type="email"
-                                                name="email" placeholder="Enter Your Email" required>
-                                        </div>
-                                    </div>
-                                    <div class="field">
-                                        <label class="label" style="font-size: 16px;">Message</label>
-                                        <div class="control">
-                                            <textarea class="textarea" name="message" style="width: 100% ;color: black;"
-                                                placeholder="Enter Your Message" required></textarea>
-                                        </div>
-                                    </div>
-                                    <button style="text-shadow: #1d00c2;" type="Submit"
-                                        class="btn btn-info btn-block btn-lg">Submit</button>
 
                                     <!-- If we receive data in this field submission will be ignored -->
                                     <input type="text" name="honeypot" style="display: none;"> <!-- Optional -->
