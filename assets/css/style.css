@@ -18,6 +18,45 @@ body {
     font-size: 14px;
 }
 
+/* Back to top button */
+#myBtn {
+  /* display: none; Hidden by default */
+  opacity: 1;
+  position: fixed; 
+  right:15px ; 
+  bottom: 45px;
+  /* z-index: -1; */
+   /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgba(165, 157, 157, 0.924); /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  height: 28px;
+  width: 28px;
+}
+
+.fa-angle-up{
+  position: fixed; 
+  right:19px ; 
+  bottom: 44px;
+  color: #000;
+  font-size: 35px;
+}
+
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+#myBtn:hover .fa-angle-up{
+  color : white;
+}
+/* back to top button end */
+
 .how:hover{
   text-decoration: underline;
 }
@@ -44,7 +83,7 @@ body {
 
 #tool{
   position: fixed; 
-  right:15px ; 
+  left:15px ; 
   bottom: 38px; 
 }
 
