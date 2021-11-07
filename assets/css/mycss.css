@@ -284,7 +284,7 @@ div.static-details > div{
   background-color: #022669;
   font-weight: bold;
   text-align: center;
-  /* cursor: pointer; */
+  cursor: pointer;
   /* width: 90%; */
 }
 
