@@ -312,3 +312,15 @@ div.property-card , div.wrapper div{
 /* div.mentorrow1{
    background-color: #022669; 
 } */
+
+div.myaccordion i {
+  font-size:medium;
+}
+
+div.myaccordion i.fa-plus {
+  display: none;
+}
+
+div.myaccordion i.fa-minus {
+  display: inline-block;
+}
