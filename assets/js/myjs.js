@@ -28,37 +28,34 @@ let mydesc1 = document.getElementById("desctype1");
 let mydesc2 = document.getElementById("desctype2");
 let mydesc3 = document.getElementById("desctype3");
 
-let ip1 = document.getElementById("itypep1");
-let ip2 = document.getElementById("itypep2");
-let ip3 = document.getElementById("itypep3");
+let ip1 = document.getElementById("sp1");
+let ip2 = document.getElementById("sp2");
+let ip3 = document.getElementById("sp3");
 
-let im1 = document.getElementById("itypem1");
-let im2 = document.getElementById("itypem2");
-let im3 = document.getElementById("itypem3");
 
 mybutton1.onclick = function () {
 
     if (mydesc1.style.display !== "none") {
         mydesc1.style.display = "none";
-        ip1.style.display = "inline-block";
+        ip1.innerHTML = "＋";
     }
     else if (mydesc1.style.display == "none") {
             mydesc1.style.display = "block";
-            im1.style.display = "inline-block";
-
+            ip1.innerHTML = "—";
         }
 }
 mybutton2.onclick = function () {
 
     if (mydesc2.style.display !== "none") {
         mydesc2.style.display = "none";
-        ip2.style.display = "inline-block";
-        ip2.style.display = "inline-block";
+        ip2.innerHTML = "＋";
+
 
     }
     else if (mydesc2.style.display == "none") {
             mydesc2.style.display = "block";
-            im2.style.display = "inline-block";
+            ip2.innerHTML = "—";
+
 
         }
 
@@ -68,13 +65,13 @@ mybutton3.onclick = function () {
 
     if (mydesc3.style.display !== "none") {
         mydesc3.style.display = "none";
-        ip3.style.display = "inline-block";
-        ip3.style.display = "inline-block";
+        ip3.innerHTML = "＋";
+
 
     }
     else if (mydesc3.style.display == "none") {
             mydesc3.style.display = "block";
-            im3.style.display = "inline-block";
+            ip3.innerHTML = "—";
 
         }
 
