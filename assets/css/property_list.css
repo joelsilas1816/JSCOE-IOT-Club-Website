@@ -22,41 +22,40 @@
 }
 
 .property-card {
-    background-color: #000;
+    /* background-color: #000; */
     border-radius: 7px;
     /* padding: 15px 0px; */
     /* margin: 0px 20px 0px 20px; */
+    /* background-color: #8c919b; */
     width: auto;
     /* flex-basis: ; */
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 8px 20px 0 rgba(56, 40, 40, 0.28), 0 8px 20px 0 rgba(0, 0, 0, 0.25);
 }
 
 .property-card1 {
     /* background-color: #000; */
     border-radius: 7px;
+    /* background-color: #022669; */
+
     /* padding: 15px 0px; */
     /* margin: 0px 20px 0px 20px; */
   
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-}
-
-
-
-.property-card:focus,
-.property-card:hover {
     box-shadow: 0 8px 20px 0 rgba(56, 40, 40, 0.28), 0 8px 20px 0 rgba(0, 0, 0, 0.25);
-    /* border: solid 2px black; */
 }
+
+
+
+
 
 .property-card1:focus,
 .property-card1:hover {
-    box-shadow: 0 8px 20px 0 rgba(56, 40, 40, 0.28), 0 8px 20px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 8px 20px 0 rgba(124, 73, 228, 0.815), 0 8px 20px 0 rgba(16, 5, 65, 0.28);
     /* border: solid 2px black; */
 }
 
 .property-card:focus,
 .property-card:hover {
-    box-shadow: 0 8px 20px 0 rgba(56, 40, 40, 0.28), 0 8px 20px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 8px 20px 0 rgba(124, 73, 228, 0.815), 0 8px 20px 0 rgba(16, 5, 65, 0.28);
     /* border: solid 2px black; */
 }
 

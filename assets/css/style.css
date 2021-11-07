@@ -119,7 +119,7 @@ div.column.is-half {
 } */
 
 #menu {
-    background-color: rgba(28, 43, 75, 1);
+    background-color: #022669;
     color: #fff;
     font-size: 12px;
     font-weight: 900;
@@ -365,7 +365,7 @@ h1::after {
   ===================================*/
 #footer {
     padding:5px 20px;
-    background-color:#2d3d5a;
+    background-color:#022669;
     text-align:right;
     color:#fff;
     font-size:15px;
