@@ -45,19 +45,19 @@
 .property-card:focus,
 .property-card:hover {
     box-shadow: 0 8px 20px 0 rgba(56, 40, 40, 0.28), 0 8px 20px 0 rgba(0, 0, 0, 0.25);
-    border: solid 2px black;
+    /* border: solid 2px black; */
 }
 
 .property-card1:focus,
 .property-card1:hover {
     box-shadow: 0 8px 20px 0 rgba(56, 40, 40, 0.28), 0 8px 20px 0 rgba(0, 0, 0, 0.25);
-    border: solid 2px black;
+    /* border: solid 2px black; */
 }
 
 .property-card:focus,
 .property-card:hover {
     box-shadow: 0 8px 20px 0 rgba(56, 40, 40, 0.28), 0 8px 20px 0 rgba(0, 0, 0, 0.25);
-    border: solid 2px black;
+    /* border: solid 2px black; */
 }
 
 /* #logorot{
@@ -112,7 +112,7 @@
 .property-name {
     font-size: 18px;
     font-weight: 600;
-    height:165px !important; 
+    /* height:165px !important;  */
 }
 
 .mentorrow{
