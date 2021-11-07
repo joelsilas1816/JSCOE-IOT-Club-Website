@@ -17,11 +17,11 @@
   padding: 160px 15px;
 }
 
-.rounded-circle
+/* .rounded-circle
 {
   border : solid white 0.1px;
   border-radius: 100px;
-}
+} */
 
 @media (max-width: 768px) {
   .banner-container {
@@ -49,6 +49,7 @@
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   display: inline-block;
   padding: 20px;
+  border-radius: 100px;
 }
 
 .city-card:focus,
@@ -298,3 +299,4 @@ div.static-details > div{
 
 
 /*My accordion styles end*/
+
