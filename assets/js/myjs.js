@@ -32,7 +32,7 @@ clearButton.onclick = function() {
 
 function showAlertMess(){
         alert("Thank you. Your Message has been submitted successfully");
-      window.location.href = "https://furry-telegram-swart.vercel.app";
+      window.location.href = "https://furry-telegram-swart.vercel.app#contact-sec";
 }
 
 
