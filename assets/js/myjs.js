@@ -1,8 +1,8 @@
 //Get the button
-var subcount = "0";
-localStorage.set("0" , subcount);
+// var subcount = "0";
+// localStorage.set("0" , subcount);
 
-var subcount = localStorage.getItem("0")
+// var subcount = localStorage.getItem("0")
 
 let mybutton = document.getElementById("myBtn");
 let angle = document.getElementById("angle");
@@ -14,14 +14,13 @@ let nameField = document.getElementById("NameEntered");
 let emailField = document.getElementById("EmailEntered");
 let messField = document.getElementById("MessageEntered");
 
-subButton.onclick = function(){
-  subcount = "1";
-}
+// subButton.onclick = function(){
+// }
 
 function showAlert(){
-  if(subcount == "1"){
+  if(messField.value != ""){
     alert("Thank you. Your Message has been submitted successfully");
-    subcount = "0";
+    // subcount = "0";
   }
 }
 
