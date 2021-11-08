@@ -1,8 +1,3 @@
-//Get the button
-// var subcount = "0";
-// localStorage.set("0" , subcount);
-
-// var subcount = localStorage.getItem("0")
 
 let mybutton = document.getElementById("myBtn");
 let angle = document.getElementById("angle");
@@ -14,16 +9,6 @@ let nameField = document.getElementById("NameEntered");
 let emailField = document.getElementById("EmailEntered");
 let messField = document.getElementById("MessageEntered");
 
-// subButton.onclick = function(){
-// }
-
-// function showAlert(){
-//   // if(messField.value == null){
-//     alert("Thank you. Your Message has been submitted successfully");
-//     // subcount = "0";
-//   // }
-// }
-
 clearButton.onclick = function() {
   nameField.value = "";
   emailField.value = "";
@@ -34,7 +19,6 @@ function showAlertMess(){
         alert("Thank you. Your Message has been submitted successfully");
       window.location.href = "https://furry-telegram-swart.vercel.app#contact-sec";
 }
-
 
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
