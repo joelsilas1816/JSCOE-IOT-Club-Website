@@ -88,10 +88,17 @@ body {
   bottom: 38px; 
 }
 
-#tool:hover .tooltiptext {
+#handle{
+  font-size: 3rem; margin-bottom: 30px;
+}
+
+#tool:hover .tooltiptext , #handle:hover .tooltiptext {
   display: inline;
   visibility: visible;
 }
+
+
+
 .set-row-pad {
     padding-top:30px;
     padding-bottom:50px;

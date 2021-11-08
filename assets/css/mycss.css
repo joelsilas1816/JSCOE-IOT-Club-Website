@@ -339,18 +339,38 @@ div.myLocation{
   display: flex; 
   min-height: 504.8px; 
   /* flex-direction: row !important; */
-  /* align-items: center; */
+  align-items: flex-end;
   justify-content: space-evenly ;
 }
 
 div.mymap{
+  /* flex-basis: 40%;
+  margin-bottom: 70px; */
+  /* width: 80%;  */
+  height: 300px ;
+  /* margin-bottom: 70px; */
+   padding: 0;
+  align-self: center;
+
+  /* display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center; */
+  justify-content: center;
+}
+
+div.G-api{
   flex-basis: 40%;
   margin-bottom: 70px;
   /* width: 80%;  */
-  height: 300px ;
-  margin-bottom: 70px;
+  height: 100% ;
+  flex-direction: column;
+  
+  /* margin-bottom: 70px; */
    padding: 0;
-  align-self: flex-end;
+   text-align: center;
+  /* align-items: center;*/
+  /* justify-content: space-between; */
 }
 
 @media(max-width : 975px){
@@ -363,7 +383,7 @@ div.mymap{
     flex-basis: 80%;
   }
 
-  div.mymap{
+  div.G-api{
     flex-basis: 80%;
   }
 }
