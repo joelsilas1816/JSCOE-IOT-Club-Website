@@ -94,3 +94,7 @@ mybutton3.onclick = function () {
 
 }
 /*My accordion script ends*/
+
+function showAlert(){
+    alert("Your Message has been submitted successfully");
+}
