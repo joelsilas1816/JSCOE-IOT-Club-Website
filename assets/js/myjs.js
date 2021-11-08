@@ -30,6 +30,11 @@ clearButton.onclick = function() {
   messField.value = "";
 }
 
+function showAlertMess(){
+        alert("Thank you. Your Message has been submitted successfully");
+      window.location.href = "https://furry-telegram-swart.vercel.app";
+}
+
 
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
