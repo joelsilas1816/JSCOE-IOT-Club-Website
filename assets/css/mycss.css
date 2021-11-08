@@ -365,7 +365,7 @@ div.G-api{
   /* width: 80%;  */
   height: 100% ;
   flex-direction: column;
-  
+  position: relative;
   /* margin-bottom: 70px; */
    padding: 0;
    text-align: center;

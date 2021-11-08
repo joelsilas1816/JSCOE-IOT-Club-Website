@@ -88,16 +88,24 @@ body {
   bottom: 38px; 
 }
 
-#handle{
-  font-size: 3rem; margin-bottom: 30px;
+#handle , #handle1{
+  font-size: 3rem;
+   margin-bottom: 30px;
+   display: inline-block;
+   position: relative;
 }
 
-#tool:hover .tooltiptext , #handle:hover .tooltiptext {
+/* #handle1{
+  display: flex;
+  flex-direction: column;
+} */
+
+/*  */
+
+#tool:hover .tooltiptext , #handle1:hover .tooltiptext {
   display: inline;
   visibility: visible;
 }
-
-
 
 .set-row-pad {
     padding-top:30px;
