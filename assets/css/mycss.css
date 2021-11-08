@@ -399,3 +399,43 @@ div.G-api{
     flex-basis: 80%;
   }
 }
+
+#ifv{
+  flex-basis:60% ; 
+  border:groove 20px crimson; 
+  background-color: black;   
+   box-shadow: 0 8px 20px 0 rgba(56, 40, 40, 0.28), 0 8px 20px 0 rgba(0, 0, 0, 0.25);
+  padding: 20px ;
+   height : 100%;
+}
+
+#video-player{
+  margin-bottom: 40px;
+  height : 500px ; 
+  width : 100% ;
+   display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+@media(max-width : 1040px)
+{
+#ifv {
+ 
+  flex-basis:80% ;
+}
+}
+
+@media(max-width : 620px)
+{
+#video-player {
+  height : 300px ;
+  
+}
+
+#ifv{
+  flex-basis:90% ;
+}
+}
+
+

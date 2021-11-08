@@ -385,8 +385,23 @@ h1::after {
     text-align:right;
     color:#fff;
     font-size:15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
+#footer > div{
+  margin : 0px 10px 0px 10px ; 
+}
+
+@media (max-width : 785.60px){
+
+  #footer{
+    justify-content : center;
+
+  }
+}
 
     .u-section-1 .u-sheet-1 {
         min-height: 500px;
@@ -508,11 +523,11 @@ h1::after {
             align-self: center ;
       }
 
-      .mycontainer1
+      /* .mycontainer1
       {
         display: flex;
           justify-content: space-between;
-      }
+      } */
 
       @media (max-width: 575px) {
         .u-section-1 .u-sheet-1 {
