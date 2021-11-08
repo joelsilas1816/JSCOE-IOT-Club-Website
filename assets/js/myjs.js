@@ -1,13 +1,26 @@
 //Get the button
+var subcount = 0;
+
 let mybutton = document.getElementById("myBtn");
 let angle = document.getElementById("angle");
 
+let subButton = document.getElementById("subBut");
 let clearButton = document.getElementById("clearBut");
 
 let nameField = document.getElementById("NameEntered");
 let emailField = document.getElementById("EmailEntered");
 let messField = document.getElementById("MessageEntered");
 
+subButton.onclick = function(){
+  subcount = 1;
+}
+
+function showAlert(){
+  if(subcount == 1){
+    alert("Thank you. Your Message has been submitted successfully");
+    subcount = 0;
+  }
+}
 
 clearButton.onclick = function() {
   nameField.value = "";
@@ -95,6 +108,3 @@ mybutton3.onclick = function () {
 }
 /*My accordion script ends*/
 
-function showAlert(){
-    alert("Your Message has been submitted successfully");
-}
