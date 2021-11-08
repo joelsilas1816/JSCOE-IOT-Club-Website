@@ -17,12 +17,12 @@ let messField = document.getElementById("MessageEntered");
 // subButton.onclick = function(){
 // }
 
-function showAlert(){
-  // if(messField.value == null){
-    alert("Thank you. Your Message has been submitted successfully");
-    // subcount = "0";
-  // }
-}
+// function showAlert(){
+//   // if(messField.value == null){
+//     alert("Thank you. Your Message has been submitted successfully");
+//     // subcount = "0";
+//   // }
+// }
 
 clearButton.onclick = function() {
   nameField.value = "";
