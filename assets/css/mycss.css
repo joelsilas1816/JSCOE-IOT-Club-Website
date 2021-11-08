@@ -265,9 +265,11 @@ div.static-details > div{
   display: flex;
   flex-direction: column;
   align-items: center;
-  width:37vw;
+  flex-basis: 40%;
   justify-content: center;
   box-shadow: 0 8px 20px 0 rgba(56, 40, 40, 0.28), 0 8px 20px 0 rgba(0, 0, 0, 0.25);
+  height: auto;
+    margin-bottom: 70px;
 
 }
 
@@ -325,4 +327,36 @@ div.property-card , div.wrapper div{
   color: #022669;
   padding: 0px 5px;
   height: 100%;
+}
+
+div#desctype3 a{
+  text-decoration: underline;
+   color: rgb(27, 14, 206);
+}
+
+div.myLocation{
+  display: flex; 
+  min-height: 504.8px; 
+  align-items: flex-end;
+  /* flex-direction: row !important; */
+  /* align-items: center; */
+  justify-content: space-between ;
+}
+
+div.mymap{
+  flex-basis: 40%;
+  margin-bottom: 70px;
+
+  /* align-self: flex-end; */
+}
+
+@media(max-width : 975px){
+  div.myLocation{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  div.myaccordion{
+    flex-basis: 80%;
+  }
 }
