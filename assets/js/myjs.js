@@ -1,6 +1,20 @@
 //Get the button
 let mybutton = document.getElementById("myBtn");
-let angle = document.getElementById("angle")
+let angle = document.getElementById("angle");
+
+let clearButton = document.getElementById("clearBut");
+
+let nameField = document.getElementById("NameEntered");
+let emailField = document.getElementById("EmailEntered");
+let messField = document.getElementById("MessageEntered");
+
+
+clearButton.onclick = function() {
+  nameField.value = "";
+  emailField.value = "";
+  messField.value = "";
+}
+
 
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};

@@ -166,6 +166,13 @@ div.field{
   flex-direction: column;
 }
 
+div.butfield{
+  display: flex;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  justify-content: space-evenly;
+}
+
 div.actual-detail{
   height : 80%;
   width : 80%;
@@ -174,7 +181,12 @@ div.actual-detail{
 }
 
 #subBut{
-  font-size: 1.3rem; font-weight: bold; flex-basis: 80%;
+  font-size: 1.3rem; font-weight: bold; width: 40% !important;
+}
+
+#clearBut{
+  font-size: 1.3rem; font-weight: bold; width: 40% !important;
+  margin: 0px 0px 0px 0px;
 }
 
 @media (max-width : 875px){
