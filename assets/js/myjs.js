@@ -18,7 +18,7 @@ let messField = document.getElementById("MessageEntered");
 // }
 
 function showAlert(){
-  if(messField.value != null){
+  if(messField.value == null){
     alert("Thank you. Your Message has been submitted successfully");
     // subcount = "0";
   }
