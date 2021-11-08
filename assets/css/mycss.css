@@ -270,6 +270,7 @@ div.static-details > div{
   box-shadow: 0 8px 20px 0 rgba(56, 40, 40, 0.28), 0 8px 20px 0 rgba(0, 0, 0, 0.25);
   height: auto;
     margin-bottom: 70px;
+    align-self: center;
 
 }
 
@@ -337,17 +338,19 @@ div#desctype3 a{
 div.myLocation{
   display: flex; 
   min-height: 504.8px; 
-  align-items: flex-end;
   /* flex-direction: row !important; */
   /* align-items: center; */
-  justify-content: space-between ;
+  justify-content: space-evenly ;
 }
 
 div.mymap{
   flex-basis: 40%;
   margin-bottom: 70px;
-
-  /* align-self: flex-end; */
+  /* width: 80%;  */
+  height: 300px ;
+  margin-bottom: 70px;
+   padding: 0;
+  align-self: flex-end;
 }
 
 @media(max-width : 975px){
@@ -357,6 +360,10 @@ div.mymap{
   }
 
   div.myaccordion{
+    flex-basis: 80%;
+  }
+
+  div.mymap{
     flex-basis: 80%;
   }
 }

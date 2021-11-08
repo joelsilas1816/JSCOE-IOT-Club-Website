@@ -21,7 +21,7 @@ body {
 /* Back to top button */
 #myBtn {
   /* display: none; Hidden by default */
-  opacity: 1;
+  opacity: 0;
   position: fixed; 
   right:15px ; 
   bottom: 45px;
@@ -38,13 +38,14 @@ body {
   height: 28px;
   width: 28px;
 }
-
-.fa-angle-up{
-  position: fixed; 
+#angle{
+  position: fixed;
+  display: inline-block; 
   right:19px ; 
   bottom: 44px;
   color: #000;
   font-size: 35px;
+  opacity: 0;
 }
 
 
@@ -52,7 +53,7 @@ body {
   background-color: #555; /* Add a dark-grey background on hover */
 }
 
-#myBtn:hover .fa-angle-up{
+#myBtn:hover #angle{
   color : white;
 }
 /* back to top button end */
