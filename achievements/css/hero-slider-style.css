@@ -701,7 +701,11 @@ Javascript disabled
 .app-custom{
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   margin: 0px , 10px;
+}
+
+.figure{
+  border: solid 1px black !important;
 }
