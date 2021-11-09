@@ -234,9 +234,10 @@ Single slide style
   height: 100%;
   z-index: 1;
   left: 0;
-  top: 0;
+  top: 100px;
+  padding-bottom : 150px;
   /* this padding is used to align the text */
-  padding-top: 100px;
+  padding-top: 110px;
   text-align: center;
   /* Force Hardware Acceleration in WebKit */
   -webkit-backface-visibility: hidden;
