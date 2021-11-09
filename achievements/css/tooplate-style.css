@@ -431,6 +431,8 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
   	height: auto;
   	border: none;
   	margin: 0 auto;
+	  border : solid 2px black;
+
 }
 
 .tm-textbox-padding { padding: 35px 30px; }
