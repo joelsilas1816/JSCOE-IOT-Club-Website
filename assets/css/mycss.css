@@ -225,6 +225,18 @@ div.actual-detail{
   }
 } */
 
+/* h4 > p{
+  text-indent: 5rem;
+} */
+
+.obj{
+  padding : 10px 60px;
+  background-color: #fff;
+  border: #4CC9F0 groove 20px;
+  box-shadow: 0 8px 20px 0 rgba(56, 40, 40, 0.28), 0 8px 20px 0 rgba(56, 0, 0, 0.25);
+
+}
+
 div.field > label.label{
 
   color : #fff;
