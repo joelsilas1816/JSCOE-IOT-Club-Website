@@ -296,7 +296,7 @@ div.static-details > div{
 .myaccordion div:nth-of-type(odd){
   font-size: 1.2rem; 
   color: #fff;
-  background-color: #022669;
+  background-color: #050505;
   font-weight: bold;
   text-align: center;
   cursor: pointer;
