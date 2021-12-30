@@ -37,6 +37,7 @@ body {
   font-size: 18px; /* Increase font size */
   height: 28px;
   width: 28px;
+  transition: all 0.4s;
 }
 #angle{
   position: fixed;

@@ -27,6 +27,7 @@ function scrollFunction() {
   if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
     mybutton.style.opacity = 1;
     angle.style.opacity = 1;
+    mybutton.style.transition = "all 0.5s"
   } else {
     mybutton.style.opacity = 0;
     angle.style.opacity = 0;
