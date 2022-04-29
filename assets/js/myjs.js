@@ -16,8 +16,14 @@ clearButton.onclick = function() {
 }
 
 function showAlertMess(){
+    if(nameField.value=="" || emailField.value=="" || messField.value==""){
+      alert("Kindly fill in the details")
+      return false;
+    }
+    else{
         alert("Thank you. Your Message has been submitted successfully");
       window.location.href = "https://furry-telegram-swart.vercel.app#contact-sec";
+    }
 }
 
 // When the user scrolls down 20px from the top of the document, show the button
